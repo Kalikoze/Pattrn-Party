@@ -1,0 +1,31 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+	margin: 0;
+}
+
+header {
+	align-items: center;
+	background-color: #3F3244;
+	color: #F2F2F2;
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+	height: 10vh;
+}
+
+h1 {
+	margin-left: 20px;
+	font-weight: 300;
+}
+
+.h1-color {
+	color: #34D1D1;
+}
+
+.header-name {
+	position: absolute;
+	right: 20px;
+	font-weight: 600;
+	text-align: right;
+}
