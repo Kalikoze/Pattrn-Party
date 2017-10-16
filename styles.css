@@ -5,12 +5,15 @@
 	margin: 0;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 header {
 	align-items: center;
 	background-color: #3F3244;
-	color: #F2F2F2;
+	color: #FFF;
 	display: flex;
-	font-family: 'Open Sans', sans-serif;
 	height: 10vh;
 }
 
@@ -28,4 +31,88 @@ h1 {
 	right: 20px;
 	font-weight: 600;
 	text-align: right;
+}
+
+/* ACCORDION TABS */
+
+.l-accordion-tabs {
+	display: flex;
+	flex-wrap: wrap;
+	height: 60vh;
+	justify-content: center;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.l-section-title {
+	align-items: center;
+	display: flex;
+	height: 10%;
+	width: 100%;
+}
+
+h2 {
+	font-weight: 300;
+	margin-left: 20px;
+	text-transform: uppercase;
+	width: 25%;
+}
+
+hr {
+	width: 100%;
+	margin-right: 20px;
+}
+
+article {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	height: 90%;
+	margin-top: 80px;
+	width: 90%;
+}
+
+.tab {
+	align-items: center;
+	background-color: #F2F2F2;
+	border: 1px solid #FFF;
+	border-bottom: 1px solid #666;
+	display: flex;
+	height: 10%;
+	justify-content: center;
+	width: 25%;
+}
+
+.is-active {
+	border: 1px solid #666;
+	font-weight: 600;
+	background-color: #FFF;
+	border-bottom: none;
+}
+
+.display {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+}
+
+img {
+	height: 80%;
+	margin: 40px;
+	object-fit: cover;
+	width: 40%;
+}
+
+h3 {
+	font-weight: 600;
+	margin-top: 60px;
+	width: 20%;
+}
+
+.display-hr {
+	width: 10%;
+}
+
+.display p {
 }
