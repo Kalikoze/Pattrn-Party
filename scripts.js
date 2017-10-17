@@ -2,14 +2,15 @@ const animals = ['CLOUDED LEOPARD', 'CALIFORNIA SEA LION', 'MANED WOLF', 'RING-T
 const images = ['leopard', 'sealion', 'wolf', 'lemur'];
 
 const changeTab = tab => {
-	const tabNum = tab.innerText.slice(-2, -1);
+	const tabNum = tab.innerText.slice(4, 5);
 	const animalList = [leopard, seaLion, manedWolf, lemur];
 	$('.is-active').removeClass('is-active');
 	$(tab).toggleClass('is-active');
-	$(window).width() > 980 ? appendDisplay(tabNum, animalList) : appendTab(tabNum, animalList);
+	$(window).width() > 980 ? appendDisplay(tabNum, animalList) : appendTab(tab, tabNum, animalList);
 };
 
-const appendTab = (tabNum, animalList) => {
+const appendTab = (tab, tabNum, animalList) => {
+	changeSign(tab)
 	$('.display').remove();
 	$('.is-active').after(`<section class="display">
 		<img src="assets/${images[tabNum-1]}.jpg" alt="">
@@ -27,6 +28,12 @@ const appendTab = (tabNum, animalList) => {
 			</section>
 		</div>
 	</section>`)
+}
+
+const changeSign = tab => {
+	const value = $(tab).find('.sign');
+	$('.sign').text('+');
+	value.text() === '+' ? value.text('-') : value.text('+')
 }
 
 const appendDisplay = (tabNum, animalList) => {
