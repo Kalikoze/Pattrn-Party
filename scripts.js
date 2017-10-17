@@ -46,3 +46,4 @@ const appendDisplay = (tabNum, animalList, description) => {
 }
 
 $('.tab').click(e => changeTab(e.currentTarget));
+$('button').click(() => window.open('https://github.com/Kalikoze/Pattrn-Party'))
