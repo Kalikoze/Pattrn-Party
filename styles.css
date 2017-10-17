@@ -56,12 +56,13 @@ h2 {
 	font-weight: 300;
 	margin-left: 50px;
 	text-transform: uppercase;
-	width: 20%;
+	width: 300px;
 }
 
 hr {
-	width: 100%;
+	border-top: 1px solid #D1D2D3;
 	margin-right: 20px;
+	width: 90%;
 }
 
 article {
@@ -80,6 +81,7 @@ article {
 	border: 1px solid #FFF;
 	border-bottom: 1px solid #666;
 	color: #666;
+	cursor: pointer;
 	display: flex;
 	height: 10%;
 	justify-content: center;
@@ -143,4 +145,75 @@ button {
 	height: 50px;
 	margin-top: 75px;
 	width: 30%;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 980px) {
+	.l-section-title {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	h2, hr {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	hr {
+		margin-top: 20px;
+		width: 150px;
+	}
+
+	article {
+		flex-direction: row;
+		height: 800px;
+	}
+
+	.tab {
+		border: 1px solid #D1D2D3;
+		height: 7%;
+		justify-content: flex-start;
+		padding-left: 20px;
+		width: 90%;
+	}
+
+	.display {
+		border: 1px solid #D1D2D3;
+		flex-direction: column;
+		width: 90%;
+	}
+
+	img {
+		height: 300px;
+		margin: 0;
+		object-fit: cover;
+		width: 100%;
+	}
+
+	.info {
+		justify-content: center;
+	}
+
+	.display-hr {
+		margin: 0;
+	}
+
+	h3 {
+		margin: 20px;
+	}
+
+	.description {
+		padding: 20px;
+	}
+
+	button {
+		width: 90%;
+	}
+}
+
+@media (max-width: 600px) {
+	article {
+		height: 1000px;
+	}
 }
