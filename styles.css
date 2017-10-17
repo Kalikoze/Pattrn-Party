@@ -145,6 +145,7 @@ button {
 	background-color: #3F3244;
 	border: none;
 	color: #FFF;
+	cursor: pointer;
 	font-weight: 300;
 	height: 50px;
 	margin-top: 75px;
@@ -222,6 +223,7 @@ button {
 	}
 
 	button {
+		order: 10;
 		width: 90%;
 	}
 }
