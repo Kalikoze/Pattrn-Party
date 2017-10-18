@@ -42,4 +42,4 @@ const appendDisplay = (value, description) => {
 }
 
 $('.tab').click(e => changeTab(e.currentTarget));
-$('button').click(() => window.open('https://github.com/Kalikoze/Pattrn-Party'))
+$('button').click(() => window.open('https://codepen.io/Kalikoze/pen/vevJmw'))
