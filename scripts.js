@@ -36,7 +36,6 @@ const changeSign = tab => {
 }
 
 const appendDisplay = (value, description) => {
-	const theTab = $('.tab')[3];
 	$('.display').remove();
 	$(value).after(`${description}`);
 }
