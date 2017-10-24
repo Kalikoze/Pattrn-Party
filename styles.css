@@ -155,10 +155,65 @@ button {
 /* Flexible Cards */
 
 .l-flexible-cards {
-  height: 70vh;
-  margin-top: 350px;
+  height: 150vh;
+  margin-top: 300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.l-section-title {
+  height: 10%;
   width: 100%;
 }
+
+.flexible-cards-grid {
+  align-items: center;
+  padding: 20px;
+  display: grid;
+  height: 90%;
+  grid-template-columns: calc(100%/3);
+  grid-template-rows: calc(100%/3);
+  grid-gap: 30px 30px;
+  width: 85%;
+}
+
+.flexible-cards-grid h3 {
+  border-bottom: 1px solid #666;
+  display: flex;
+  align-items: center;
+  height: 20%;
+  padding-left: 25px;
+  margin: 0;
+}
+
+.flexible-cards-grid article {
+  margin: 0;
+  border: 1px solid #666;
+}
+
+.flexible-cards-grid img {
+  height: 80%;
+  object-fit: cover;
+  margin: 0;
+  width: 100%;
+}
+
+.grid-length-2:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / 1;
+}
+
+.grid-length-2:last-child {
+  grid-column: 2 / span 2;
+}
+
+.grid-length-2, .grid-length-1 {
+  height: 100%;
+  width: 100%;
+}
+
 
 /* MEDIA QUERIES */
 
