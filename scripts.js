@@ -41,4 +41,5 @@ const appendDisplay = (value, description) => {
 }
 
 $('.tab').click(e => changeTab(e.currentTarget));
-$('button').click(() => window.open('https://codepen.io/Kalikoze/pen/vevJmw'))
+$('.link-accordion').click(() => window.open('https://codepen.io/Kalikoze/pen/vevJmw'))
+$('.link-flexible').click(() => window.open('https://codepen.io/Kalikoze/pen/BwgqRE'))
