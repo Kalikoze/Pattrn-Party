@@ -218,6 +218,67 @@ button {
   margin: -20px 0 50px;
 }
 
+/* Header Bar */
+
+.l-header-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.l-header-bar .l-section-title {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 15%;
+}
+
+nav {
+  align-items: center;
+  background-color: #D1D2D3;
+  display: flex;
+  height: 150px;
+  margin-top: 100px;
+  width: 90%;
+}
+
+.navigation {
+  align-items: center;
+  display: flex;
+  width: 85%;
+}
+
+a {
+  font-size: 24px;
+  color: #666;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.menu-text {
+  display: none;
+}
+
+.logo {
+  height: auto;
+  width: 100px;
+}
+
+input {
+  border: 1px solid #666;
+  background-color: #F2F2F2;
+  height: 34px;
+  padding-left: 20px;
+  width: 35%;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 980px) {
