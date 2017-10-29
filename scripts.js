@@ -1,6 +1,3 @@
-const animals = ['CLOUDED LEOPARD', 'CALIFORNIA SEA LION', 'MANED WOLF', 'RING-TAILED LEMUR'];
-const images = ['leopard', 'sealion', 'wolf', 'lemur'];
-
 const changeTab = tab => {
 	const tabNum = tab.innerText.slice(4, 5);
 	const animalList = [leopard, seaLion, manedWolf, lemur];
