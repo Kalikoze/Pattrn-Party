@@ -107,6 +107,10 @@ hr {
 	width: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 img {
 	height: 85%;
 	margin: 40px;
