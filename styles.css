@@ -224,6 +224,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .l-header-bar .l-section-title {
@@ -414,6 +415,7 @@ input {
     width: 100%;
   }
 
+
   .logo {
     margin: 0 0 0 25px;
     width: 75px;
@@ -436,9 +438,14 @@ input {
   }
 
   .navigation {
+    display: none;
     background-color: #E6E6E6;
     flex-direction: column;
     width: 100%;
+  }
+
+  .appear {
+    display: flex;
   }
 
   .navigation a {

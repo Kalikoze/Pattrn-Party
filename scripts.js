@@ -43,3 +43,4 @@ const appendDisplay = (value, description) => {
 $('.tab').click(e => changeTab(e.currentTarget));
 $('.link-accordion').click(() => window.open('https://codepen.io/Kalikoze/pen/vevJmw'))
 $('.link-flexible').click(() => window.open('https://codepen.io/Kalikoze/pen/BwgqRE'))
+$('.menu').click(() => $('.navigation').toggleClass('appear'))
