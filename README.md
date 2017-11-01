@@ -1,3 +1,7 @@
+![Original-Comp](assets/pattrn-party-comps.pdf);
+
+![Final-Comp](assets/Pattrn-Party.png)
+
 # Pattrn-Party
 
 ## Synopsis
