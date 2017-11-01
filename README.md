@@ -1,4 +1,4 @@
-![Original-Comp](assets/pattrn-party-comps.pdf);
+![Original-Comp](assets/pattrn-party-comps.pdf)
 
 ![Final-Comp](assets/Pattrn-Party.png)
 
