@@ -13,6 +13,7 @@ const changeSign = tab => {
 }
 
 $('.tab').click(e => changeTab(e.currentTarget));
+$('.menu').click(() => $('.navigation').toggleClass('appear'))
 $('.link-accordion').click(() => window.open('https://codepen.io/Kalikoze/pen/vevJmw'))
 $('.link-flexible').click(() => window.open('https://codepen.io/Kalikoze/pen/BwgqRE'))
-$('.menu').click(() => $('.navigation').toggleClass('appear'))
+$('.link-header').click(() => window.open('https://codepen.io/Kalikoze/pen/EbjJoo'))
