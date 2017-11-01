@@ -2,114 +2,114 @@
 *:after,
 *:before {
   box-sizing: border-box;
-	margin: 0;
+  margin: 0;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	height: 150vh;
+  font-family: 'Open Sans', sans-serif;
+  height: 150vh;
 }
 
 header {
-	align-items: center;
-	background-color: #3F3244;
-	color: #FFF;
-	display: flex;
-	height: 10vh;
+  align-items: center;
+  background-color: #3F3244;
+  color: #FFF;
+  display: flex;
+  height: 10vh;
 }
 
 h1 {
-	margin-left: 50px;
-	font-weight: 300;
+  margin-left: 50px;
+  font-weight: 300;
 }
 
 .h1-color {
-	color: #34D1D1;
+  color: #34D1D1;
 }
 
 .header-name {
-	position: absolute;
-	right: 50px;
-	font-weight: 600;
-	text-align: right;
+  position: absolute;
+  right: 50px;
+  font-weight: 600;
+  text-align: right;
 }
 
 /* ACCORDION TABS */
 
 .l-accordion-tabs {
-	display: flex;
-	flex-wrap: wrap;
-	height: auto;
-	justify-content: center;
-	margin: 20px auto;
-	width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  margin: 20px auto;
+  width: 90%;
 }
 
 .l-section-title {
-	align-items: center;
-	display: flex;
-	height: 9%;
+  align-items: center;
+  display: flex;
+  height: 9%;
   margin: 50px 0;
-	width: 100%;
+  width: 100%;
 }
 
 h2 {
-	font-weight: 300;
-	margin-left: 50px;
-	text-transform: uppercase;
-	width: 300px;
+  font-weight: 300;
+  margin-left: 50px;
+  text-transform: uppercase;
+  width: 300px;
 }
 
 hr {
-	border-top: 1px solid #D1D2D3;
-	margin-right: 20px;
-	width: 90%;
+  border-top: 1px solid #D1D2D3;
+  margin-right: 20px;
+  width: 90%;
 }
 
 .tabs-display {
-	border-top: none;
-	display: flex;
-	flex-wrap: wrap;
-	height: 90%;
-	justify-content: center;
-	margin-top: 80px;
-	width: 80%;
+  border-top: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: 90%;
+  justify-content: center;
+  margin-top: 80px;
+  width: 80%;
 }
 
 .tab {
-	align-items: center;
-	background-color: #F2F2F2;
-	border: 1px solid #FFF;
-	border-bottom: 1px solid #D1D2D3;
-	color: #666;
-	cursor: pointer;
-	display: flex;
-	height: 50px;
-	justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+  border: 1px solid #FFF;
+  border-bottom: 1px solid #D1D2D3;
+  color: #666;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: center;
   order: 1;
   position: relative;
-	width: 25%;
+  width: 25%;
 }
 
 .is-active {
-	font-weight: 600;
-	border: 1px solid #D1D2D3;
-	background-color: #FFF;
-	border-bottom: none;
+  font-weight: 600;
+  border: 1px solid #D1D2D3;
+  background-color: #FFF;
+  border-bottom: none;
 }
 
 .sign {
-	display: none;
+  display: none;
 }
 
 .display {
-	border: 1px solid #D1D2D3;
-	border-top: none;
-	display: flex;
-	height: auto;
+  border: 1px solid #D1D2D3;
+  border-top: none;
+  display: flex;
+  height: auto;
   padding-bottom: 40px;
   order: 5;
-	width: 100%;
+  width: 100%;
 }
 
 .hidden {
@@ -117,49 +117,49 @@ hr {
 }
 
 img {
-	height: 85%;
-	margin: 40px;
-	object-fit: fill;
-	width: 40%;
+  height: 85%;
+  margin: 40px;
+  object-fit: fill;
+  width: 40%;
 }
 
 .info {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 h3 {
-	font-weight: 600;
-	height: 10%;
-	margin-top: 60px;
-	width: 100%;
+  font-weight: 600;
+  height: 10%;
+  margin-top: 60px;
+  width: 100%;
 }
 
 .display-hr {
-	margin-top: -10px;
-	width: 90%;
+  margin-top: -10px;
+  width: 90%;
 }
 
 .description {
-	font-weight: 300;
-	height: 90%;
-	line-height: 25px;
-	margin: 20px 0;
-	padding-right: 20px;
-	width: 100%;
+  font-weight: 300;
+  height: 90%;
+  line-height: 25px;
+  margin: 20px 0;
+  padding-right: 20px;
+  width: 100%;
 }
 
 button {
-	background-color: #3F3244;
-	border: none;
-	color: #FFF;
-	cursor: pointer;
-	font-weight: 300;
-	height: 50px;
-	margin-top: 40px;
+  background-color: #3F3244;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  font-weight: 300;
+  height: 50px;
+  margin-top: 40px;
   order: 10;
-	width: 30%;
+  width: 30%;
 }
 
 /* Flexible Cards */
@@ -230,7 +230,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .l-header-bar .l-section-title {
@@ -365,7 +365,7 @@ input {
 	}
 
   .l-flexible-cards {
-    height: 250vh;
+    height: 300vh;
   }
 
   .flexible-cards-grid {
@@ -401,6 +401,14 @@ input {
 }
 
 @media (max-width: 680px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .header-name {
+    font-size: 12px;
+  }
+
   nav {
     flex-direction: column;
     height: auto;
@@ -408,14 +416,16 @@ input {
 
   .menu {
     display: flex;
+    align-items: center;
     font-size: 20px;
     height: 100px;
     width: 100%;
   }
 
   .logo {
+    height: 80%;
     margin: 0 0 0 25px;
-    width: 75px;
+    width: auto;
   }
 
   .menu-text {
